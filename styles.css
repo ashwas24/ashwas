@@ -12,13 +12,29 @@ body {
     position: relative;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: #000000;
     color: white;
+    
+    
 }
 
 .brand-title {
-    font-size: 1.5rem;
-    margin: .5rem;
+    font-size: 300%;
+    margin: 1rem;
+    font-family: Roboto;
+    position:relative;
+    top: -110px;
+
+}
+.logo {
+    height:30%;
+    width:30%;
+    position: relative;
+    top:100px;
+    left: 150px;
+    margin:1px;
+    padding:10px;
+
 }
 
 .navbar-links {
@@ -48,7 +64,7 @@ body {
 
 .toggle-button {
     position: absolute;
-    top: .75rem;
+    top: 1.75rem;
     right: 1rem;
     display: none;
     flex-direction: column;
@@ -95,4 +111,109 @@ body {
     .navbar-links.active {
         display: flex;
     }
+    .logo {
+        height:30%;
+        width:30%;
+        position: relative;
+        top:70px;
+        left: 1px;
+        margin:0;
+        padding:0;
+    
+    }
+    
+
+}
+h1{
+    font-family:Roboto;
+}
+.dp{
+        margin:0;
+        padding:0;
+}
+.dp-main {
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    
+}
+.navbar-about {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    color: white;
+    
+    
+    
+}
+.about-background{
+    width: 100%;
+    height: 100%;
+}
+.about-back{
+    position: relative;
+}
+.text-block{
+    position:absolute;
+    top:20px;
+    left:20px;
+    background-color: transparent;
+    color:white;
+}
+.dp-image{
+    width: 60%;
+    height: 60%;
+    position: relative;
+    left:550px;
+    top: 65px;
+}
+
+
+.contact-background{
+    width: 100%;
+    height: 100%;
+}
+.contact-back{
+    position:relative;
+}
+.text-block-contact{
+    position:absolute;
+    top:50px;
+    left:600px;
+    background-color: transparent;
+    color:white;
+    font-size: 150%;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color:yellow;
+}
+.text-block-1{
+    position:absolute;
+    top:800px;
+    left:10px;
+    background-color: transparent;
+    color:white;
+    font-size: 125%;
+    
+}
+.text-block3{
+    position: absolute;
+    top:400px;
+    left:400px;
+    font-size: 200%;
+    text-align: center;
+    color:white;
+    font-family: Roboto;
+}
+.text-pos{
+    text-align: center;
+    font-size: 130%;
 }
